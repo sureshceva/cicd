@@ -14,7 +14,7 @@ public class UserController {
 	
 	@PostMapping("/getall")
 	public List<User> getAll() {
-		List<User> users = List.of(new User(1, "Alice"), new User(2, "Bob"), new User(3, "Charlie"));
+		List<User> users = List.of(new User(1, "Alice"), new User(2, "Bob"), new User(3, "Charlie"), new User(3, "Suresh"));
 		return users;
 	}
 
